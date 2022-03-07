@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 0;
+  width: 10%;
+  margin: 1.2rem;
+  border-radius: 40px;
+  background-color: rgb(189, 245, 189);
+}

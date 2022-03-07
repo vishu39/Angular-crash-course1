@@ -1,0 +1,38 @@
+h3 {
+  font-size: 1.7rem;
+}
+p {
+  font-size: 1.4rem;
+}
+
+.done {
+  text-decoration: line-through;
+}
+.not-done {
+  text-decoration: none;
+}
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0.2rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(220, 243, 220);
+  color: black;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  color: rgb(189, 245, 189);
+  background-color: black;
+  margin: 0 0.5rem;
+  border-radius: 40px;
+}

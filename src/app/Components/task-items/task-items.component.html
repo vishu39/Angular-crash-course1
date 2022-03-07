@@ -1,0 +1,10 @@
+<div class="task">
+  <span [ngClass]="task.done ? 'not-done' : 'done'" class="first">
+    <h3>{{ task.input }}</h3>
+    <p>{{ task.importance }}</p>
+  </span>
+  <span class="second">
+    <mat-icon class="btn" (click)="doneTask(task)">check_circle</mat-icon>
+    <mat-icon class="btn" (click)="deleteTask(task)">close</mat-icon>
+  </span>
+</div>

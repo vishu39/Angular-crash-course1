@@ -1,0 +1,21 @@
+<div class="form">
+  <form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+    <div class="inp">
+      <label class="lab">Task</label>
+      <input class="in" formControlName="input" type="text" />
+    </div>
+    <div class="imp">
+      <label class="lab">Importance</label>
+      <select class="in" formControlName="importance">
+        <option>Low</option>
+        <option>Medium</option>
+        <option>High</option>
+      </select>
+    </div>
+    <div class="done">
+      <input formControlName="done" type="checkbox" />
+      <label class="lab">Click If you want to add Task</label>
+    </div>
+    <button type="submit" mat-raised-button class="btn">Add Task</button>
+  </form>
+</div>
